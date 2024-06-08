@@ -1,0 +1,8 @@
+<div class="file-upload">
+  <mat-form-field appearance="fill">
+    <mat-label>Datei auswählen</mat-label>
+    <input matInput [placeholder]="selectedFile?.name || 'Datei auswählen'" readonly (click)="fileInput.click()">
+    <input #fileInput type="file" (change)="onFileSelected($event)" style="display: none;">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="onUpload()">Upload</button>
+</div>
