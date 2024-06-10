@@ -7,7 +7,7 @@ import { Observable, Subscriber, BehaviorSubject } from 'rxjs';
 })
 export class PocketBaseService {
 
-  private pb: PocketBase = new PocketBase('http://127.0.0.1:8090');
+  private pb: PocketBase = new PocketBase('https://infra-pb-01.opreturn.de');
   token$ = new BehaviorSubject<any>(this.pb.authStore.token)
 
   constructor() {
