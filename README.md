@@ -1,3 +1,7 @@
+# Description
+
+This project is to try out PocketBase and use Angular as the frontend with PocketBase as the backend.
+
 # PocketBaseLogin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
